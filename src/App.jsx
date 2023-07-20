@@ -1,10 +1,13 @@
-function App() {
+import React from "react";
+import { NavBar } from "./components/navbar/NavBar";
+import "bootstrap/dist/css/bootstrap.min.css";
 
+function App() {
   return (
     <div>
-      Hello world!
+      <NavBar />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
